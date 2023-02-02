@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+#body{
+    background-color: var(--Lightgray);
+    height: 100vh;
+}
+
+#content{
+    border:  1px solid white;
+    border-radius: 10px;
+    background-color: var(--White);
+    width: 340px;
+    height: 470px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+div form{
+    margin-top: -5px;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+form h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--Darkblue);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+form p{
+    margin-top: 10px;
+    color: var(--Grayishblue);
+    font-weight: 400;
+}
+ 
+    
+    
